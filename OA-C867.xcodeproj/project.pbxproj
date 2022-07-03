@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0242635F280D839900DC11BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0242635E280D839900DC11BF /* main.cpp */; };
+		02426367280D83C900DC11BF /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02426365280D83C900DC11BF /* student.cpp */; };
+		0242636A280D83DA00DC11BF /* roster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02426368280D83DA00DC11BF /* roster.cpp */; };
+		0242636C280D83F300DC11BF /* degree.h in Sources */ = {isa = PBXBuildFile; fileRef = 0242636B280D83F300DC11BF /* degree.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,11 @@
 /* Begin PBXFileReference section */
 		0242635B280D839900DC11BF /* OA-C867 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OA-C867"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0242635E280D839900DC11BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		02426365280D83C900DC11BF /* student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		02426366280D83C900DC11BF /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
+		02426368280D83DA00DC11BF /* roster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roster.cpp; sourceTree = "<group>"; };
+		02426369280D83DA00DC11BF /* roster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roster.h; sourceTree = "<group>"; };
+		0242636B280D83F300DC11BF /* degree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = degree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				0242635E280D839900DC11BF /* main.cpp */,
+				02426365280D83C900DC11BF /* student.cpp */,
+				02426366280D83C900DC11BF /* student.h */,
+				02426368280D83DA00DC11BF /* roster.cpp */,
+				02426369280D83DA00DC11BF /* roster.h */,
+				0242636B280D83F300DC11BF /* degree.h */,
 			);
 			path = "OA-C867";
 			sourceTree = "<group>";
@@ -119,6 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0242635F280D839900DC11BF /* main.cpp in Sources */,
+				0242636A280D83DA00DC11BF /* roster.cpp in Sources */,
+				02426367280D83C900DC11BF /* student.cpp in Sources */,
+				0242636C280D83F300DC11BF /* degree.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

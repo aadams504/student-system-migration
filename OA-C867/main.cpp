@@ -1,14 +1,29 @@
-//
-//  main.cpp
-//  OA-C867
-//
-//  Created by Arianna Adams on 4/18/22.
-//
 
 #include <iostream>
+#include <string>
+#include <vector>
+#include <sstream>
+#include "degree.h"
+#include "roster.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main()
+{
+    Roster classRoster;
+    classRoster.printAll();
+    cout << endl;
+    classRoster.printInvalidEmails();
+    cout << endl;
+    classRoster.printAverageDaysInCourse(classRoster.classRosterArray[3].getStudentID());
+    cout << endl;
+    classRoster.printByDegreeProgram(SOFTWARE);
+    cout << endl;
+    classRoster.remove("A3");
+    cout << endl;
+    classRoster.printAll();
+    cout << endl;
+    classRoster.remove("A3");
+
     return 0;
 }
